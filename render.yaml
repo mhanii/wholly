@@ -3,7 +3,7 @@ services:
     name: gemini-integration-server
     env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: python app.py
+    startCommand: python backend/main.py
     envVars:
       - key: GOOGLE_API_KEY
         sync: false
