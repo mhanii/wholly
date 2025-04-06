@@ -35,6 +35,7 @@ def process_text():
         
         prompt = data['prompt']
         
+        print("Received request:", request.json)
         # Call Gemini API
         response = model.generate_content(prompt)
         
