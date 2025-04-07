@@ -42,6 +42,7 @@ def process_text():
         # Extract the text response
         text_response = response.text
         
+        print(text_response)
         # Check if response contains JSON
         try:
             # Try to extract JSON if it's wrapped in code blocks
